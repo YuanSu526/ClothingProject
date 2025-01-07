@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+
+# Scrapy Output Files
+*.json
+*.csv
+*.xml
+
+# Logs and Debug Files
+*.log
+*.out
+*.err
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables and Credentials
+.env
