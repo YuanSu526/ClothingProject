@@ -29,8 +29,6 @@ class cosSpider(scrapy.Spider):
         "FEED_OVERWRITE": True,
     }
 
-
-
     def start_requests(self):
         url = "https://www.cos.com/en/men/view-all.html"
         yield scrapy.Request(
