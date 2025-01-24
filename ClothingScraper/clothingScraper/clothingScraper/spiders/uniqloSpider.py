@@ -158,7 +158,7 @@ class uniqloSpider(scrapy.Spider):
                     break
 
             except Exception as e:
-                
+
                 break
 
         content = await page.content()
@@ -166,6 +166,8 @@ class uniqloSpider(scrapy.Spider):
         response = scrapy.http.HtmlResponse(url=page.url, body=content, encoding='utf-8')
 
         products = response.css('div.fr-contents-card article')
+
+        print(f"Found {len(products)}")
 
         # product = products[1]
 
@@ -218,6 +220,8 @@ class uniqloSpider(scrapy.Spider):
 
             chips = await page.query_selector_all('div[data-test="product-picker"] label.fr-chip-label.color')
 
+            print(f"Parsing item: {product_name} with {len(chips)} colors")
+
             for i in range(0, len(chips)):
 
                 try:
@@ -238,6 +242,8 @@ class uniqloSpider(scrapy.Spider):
                     model_image_src = await self.remove_query_from_url(model_image_src)
 
                     product_color = chip_colors[i] if i < len(chip_colors) else ''
+
+                    print(f"{product_name}: {i+1} out of {len(chips)} done")
 
                     yield {
                         'name': product_name,
