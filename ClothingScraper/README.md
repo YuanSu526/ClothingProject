@@ -42,3 +42,6 @@ To replicate the scraper, follow these steps:
     ```
     pip install scrapy
     ```
+7. **Store the output**
+   In general output.json will be generated in the current directory (`<project_root>/ClothingScraper/clothingScraper`)  
+   Move the output data into `<project_root>/ClothingData` for data cleaning and machine training

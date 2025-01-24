@@ -10,6 +10,9 @@ __pycache__/
 *.csv
 *.xml
 
+# Except for sample_data.json
+!sample_data.json
+
 # Logs and Debug Files
 *.log
 *.out
