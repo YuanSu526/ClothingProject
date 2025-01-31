@@ -10,8 +10,12 @@ __pycache__/
 *.csv
 *.xml
 
+# Node Modules
+node_modules/
+
 # Except for sample_data.json
 !sample_data.json
+!package.json
 
 # Logs and Debug Files
 *.log
