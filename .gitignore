@@ -14,7 +14,8 @@ __pycache__/
 node_modules/
 
 # Except for sample_data.json
-!sample_data.json
+!sample_uncleaned_data.json
+!sample_cleaned_data.json
 !package.json
 
 # Logs and Debug Files

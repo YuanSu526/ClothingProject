@@ -1,0 +1,22 @@
+[
+    {
+        "name": "WOOL BLEND COAT",
+        "color": "Black",
+        "composition": "OUTER SHELL 50% polyester 44% wool 3% polyamide 2% acrylic 1% viscose LINING 100% polyester",
+        "type": "COAT",
+        "product": "https://static.zara.net/assets/public/c6d9/5187/e37648c3a942/b31a309f8dcb/05070291800-e1/05070291800-e1.jpg",
+        "model": "https://static.zara.net/assets/public/e46a/95e0/83bd478f971f/957b106ee728/05070291706-p/05070291706-p.jpg",
+        "product-gcp": "gs://product-image-lyp/COAT-WOOL BLEND COAT-3.jpg",
+        "model-gcp": "gs://model-image-lyp/COAT-WOOL BLEND COAT-Model-3.jpg"
+    },
+    {
+        "name": "CRINKLED WIDE-LEG TROUSERS",
+        "color": "BLUE",
+        "composition": "Shell: 91% Viscose /  9% Polyamide Pocket lining: 100% Cotton",
+        "type": "TROUSERS",
+        "product": "https://lp.cosstores.com/app001prod?set=key[resolve.pixelRatio],value[4]&set=key[resolve.width],value[1200]&set=key[resolve.height],value[10000]&set=key[resolve.imageFit],value[containerwidth]&set=key[resolve.allowImageUpscaling],value[0]&set=key[resolve.format],value[jpg]&set=key[resolve.quality],value[100]&set=ImageVersion[1],origin[dam],source[/a9/43/a94346cee8a6faa661afe7e3e3cc0a8d241145e2.jpg],type[DESCRIPTIVESTILLLIFE]&call=url[file:/product/dynamic.chain]",
+        "model": "https://lp.cosstores.com/app001prod?set=key[resolve.pixelRatio],value[4]&set=key[resolve.width],value[1200]&set=key[resolve.height],value[10000]&set=key[resolve.imageFit],value[containerwidth]&set=key[resolve.allowImageUpscaling],value[0]&set=key[resolve.format],value[jpg]&set=key[resolve.quality],value[100]&set=ImageVersion[1],origin[dam],source[/ec/36/ec36302c8d30914e6beb2cc73c9ae27ac37a09fc.jpg],type[DESCRIPTIVESTILLLIFE]&call=url[file:/product/dynamic.chain]",
+        "product-gcp": "gs://product-image-lyp/TROUSERS-CRINKLED WIDE-LEG TROUSERS-1.jpg",
+        "model-gcp": "gs://model-image-lyp/TROUSERS-CRINKLED WIDE-LEG TROUSERS-Model-1.jpg"
+    }
+]

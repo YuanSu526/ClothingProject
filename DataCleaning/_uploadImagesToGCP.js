@@ -27,13 +27,10 @@ const storage = new Storage({
     projectId: "clothingproject",
     keyFilename: "./clothingproject-key.json"
 });
-
 const productBucket = storage.bucket("product-image-lyp");
-
 const modelBucket = storage.bucket("model-image-lyp");
 
 const file = "../ClothingData/Cleaned/cleaned_data.json";
-
 const outputFile = "../ClothingData/Cleaned/image_uploaded.json";
 
 const uploadCount = new Map();

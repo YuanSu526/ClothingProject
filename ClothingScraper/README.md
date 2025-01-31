@@ -2,7 +2,7 @@
 
 This scraper is written in **Python 3.13.1** and is designed to collect clothing data such as name, color, composition, images, and model images from various clothing websites.
 
-## Setup Instructions
+## Scraping Instructions
 
 To replicate the scraper, follow these steps:
 
@@ -13,7 +13,7 @@ To replicate the scraper, follow these steps:
    Move into the `ClothingScraper` directory (where this README.md is located at):
 
 3. **Create a Virtual Environment**
-   Create and activate a virtual environment to isolate dependencies:
+   Create and activate a virtual environment to isolate dependencies (run the following code in the command line):
    ```
     python3 -m venv venv
     source venv/bin/activate  #For Linux/macOS
@@ -44,4 +44,8 @@ To replicate the scraper, follow these steps:
     ```
 7. **Store the output**
    In general output.json will be generated in the current directory (`<project_root>/ClothingScraper/clothingScraper`)  
-   Move the output data into `<project_root>/ClothingData` for data cleaning and machine training
+   Move the output data into `<project_root>/ClothingData/Uncleaned` for data cleaning and machine training  
+   A sample data file will be placed there, containing a few common clothing items and problems you would encounter  
+   These problems will be addressed in the `<project_root>/DataCleaning/`
+
+**Please proceed to the DataCleaning folder after completing all the steps above.**
